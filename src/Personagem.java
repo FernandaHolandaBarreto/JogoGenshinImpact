@@ -50,5 +50,29 @@ public class Personagem {
     public void setSobre(String sobre) {
         this.sobre = sobre;
     }
-}
 
+    @Override
+    public String toString() {
+        return null;
+    }
+
+    public AprimoramentoElemental getAprimoramentoElemental() {
+        return aprimoramentoElemental;
+    }
+
+    public void setAprimoramentoElemental(AprimoramentoElemental aprimoramentoElemental) {
+        this.aprimoramentoElemental = aprimoramentoElemental;
+    }
+
+    public Ultimate getUltimate() {
+        return ultimate;
+    }
+
+    public void setUltimate(Ultimate ultimate) {
+        this.ultimate = ultimate;
+    }
+
+    public String getNome() {
+        return "";
+    }
+}
