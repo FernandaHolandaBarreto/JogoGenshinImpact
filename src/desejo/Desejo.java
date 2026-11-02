@@ -1,3 +1,5 @@
+package desejo;
+
 public class Desejo {
 
     private String personagemNoBanner;
@@ -14,7 +16,7 @@ public class Desejo {
 
     @Override
     public String toString() {
-        return "Desejo{" +
+        return "Desejo.Desejo{" +
                 "personagemNoBanner='" + personagemNoBanner + '\'' +
                 ", bannerDeArma='" + bannerDeArma + '\'' +
                 ", bannerMochileiro='" + bannerMochileiro + '\'' +

@@ -1,8 +1,10 @@
-public class Missões {
+package jogabilidade;
+
+public class Missoes {
 
     private String tipoDeMissão;
 
-    public Missões(String tipoDeMissão) {
+    public Missoes(String tipoDeMissão) {
         this.tipoDeMissão = tipoDeMissão;
     }
 

@@ -1,3 +1,5 @@
+package jogabilidade;
+
 public abstract class Eventos {
 
     private String nomeDoEvento;
@@ -16,7 +18,7 @@ public abstract class Eventos {
 
     @Override
     public String toString() {
-        return "Eventos{" +
+        return "Jogabilidade.Eventos{" +
                 "nomeDoEvento='" + nomeDoEvento + '\'' +
                 ", testeDePersonagem='" + testeDePersonagem + '\'' +
                 ", endGame='" + endGame + '\'' +

@@ -1,3 +1,5 @@
+package personagem;
+
 public class Elemento extends Personagem {
 
     private String tipoDeElemento;
@@ -10,7 +12,7 @@ public class Elemento extends Personagem {
 
     @Override
     public String toString() {
-        return "Elemento{" +
+        return "Personagem.Elemento{" +
                 "tipoDeElemento='" + tipoDeElemento + '\'' +
                 '}';
     }

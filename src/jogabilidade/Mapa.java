@@ -1,3 +1,5 @@
+package jogabilidade;
+
 public class Mapa {
 
     private String teleportes;
@@ -16,7 +18,7 @@ public class Mapa {
 
     @Override
     public String toString() {
-        return "Mapa{" +
+        return "Jogabilidade.Mapa{" +
                 "teleportes='" + teleportes + '\'' +
                 ", estatuaDoSet='" + estatuaDoSet + '\'' +
                 ", regiaos='" + regiaos + '\'' +

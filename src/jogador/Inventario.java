@@ -1,3 +1,5 @@
+package jogador;
+
 public class Inventario {
 
     private String qtdDeComida;
@@ -18,7 +20,7 @@ public class Inventario {
 
     @Override
     public String toString() {
-        return "Inventario{" +
+        return "Jogador.Inventario{" +
                 "qtdDeComida='" + qtdDeComida + '\'' +
                 ", qtdDeMateriaisEssencias='" + qtdDeMateriaisEssencias + '\'' +
                 ", qtditensDeMissao='" + qtditensDeMissao + '\'' +

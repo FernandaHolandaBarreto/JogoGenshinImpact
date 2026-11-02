@@ -1,3 +1,5 @@
+package personagem;
+
 public class Arma {
 
     private String tipoDeArma;
@@ -14,7 +16,7 @@ public class Arma {
 
     @Override
     public String toString() {
-        return "Arma{" +
+        return "Personagem.Arma{" +
                 "tipoDeArma='" + tipoDeArma + '\'' +
                 ", raridadeDaArma='" + raridadeDaArma + '\'' +
                 ", atributoPrincipal='" + atributoPrincipal + '\'' +

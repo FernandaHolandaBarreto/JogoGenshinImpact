@@ -1,3 +1,5 @@
+package jogabilidade;
+
 public class GuiaDeAventureiro {
 
     private String experiencia;
@@ -14,7 +16,7 @@ public class GuiaDeAventureiro {
 
     @Override
     public String toString() {
-        return "GuiaDeAventureiro{" +
+        return "Jogabilidade.GuiaDeAventureiro{" +
                 "experiencia='" + experiencia + '\'' +
                 ", comissoes='" + comissoes + '\'' +
                 ", dominio='" + dominio + '\'' +

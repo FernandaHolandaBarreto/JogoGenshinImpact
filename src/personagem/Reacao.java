@@ -1,3 +1,5 @@
+package personagem;
+
 public class Reacao extends Personagem {
 
     private String tipoDeReação;
@@ -11,7 +13,7 @@ public class Reacao extends Personagem {
 
     @Override
     public String toString() {
-        return "Reacao{" +
+        return "Personagem.Reacao{" +
                 "tipoDeReação='" + tipoDeReação + '\'' +
                 '}';
     }

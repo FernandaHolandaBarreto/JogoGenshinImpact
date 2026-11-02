@@ -1,3 +1,5 @@
+package personagem;
+
 public class Ultimate implements Habilidades {
 
     private String nomeDoSupremo;
@@ -11,7 +13,7 @@ public class Ultimate implements Habilidades {
 
     @Override
     public String toString() {
-        return "Ultimate{" +
+        return "Personagem.Ultimate{" +
                 "nomeDoSupremo='" + nomeDoSupremo + '\'' +
                 '}';
     }

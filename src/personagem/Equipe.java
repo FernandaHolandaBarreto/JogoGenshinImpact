@@ -1,3 +1,5 @@
+package personagem;
+
 public class Equipe {
 
     private double qtdDeAliados;
@@ -18,7 +20,7 @@ public class Equipe {
 
     @Override
     public String toString() {
-        return "Equipe{" +
+        return "Personagem.Equipe{" +
                 "qtdDeAliados=" + qtdDeAliados +
                 ", tipoDeReacaoDaEquipe='" + tipoDeReacaoDaEquipe + '\'' +
                 ", tipoDeElemento='" + tipoDeElemento + '\'' +

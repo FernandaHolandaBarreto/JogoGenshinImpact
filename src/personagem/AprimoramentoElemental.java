@@ -1,4 +1,6 @@
-public class AprimoramentoElemental implements Habilidades{
+package personagem;
+
+public class AprimoramentoElemental implements Habilidades {
 
     private String nomeDoAprimoramento;
 
@@ -10,7 +12,7 @@ public class AprimoramentoElemental implements Habilidades{
 
     @Override
     public String toString() {
-        return "AprimoramentoElemental{" +
+        return "Personagem.AprimoramentoElemental{" +
                 "nomeDoAprimoramento='" + nomeDoAprimoramento + '\'' +
                 '}';
     }

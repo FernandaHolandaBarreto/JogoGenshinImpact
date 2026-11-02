@@ -1,3 +1,8 @@
+package principal;
+
+import desejo.SistemaDePity;
+import jogador.Jogador;
+import personagem.Personagem;
 
 public class Main {
 
@@ -37,9 +42,11 @@ public class Main {
 
         IO.println("\nVocê escolheu " + viajante + "!");
 
+
+
         // Escolha do nome do jogador
         String nomeJogador = IO.readln("Digite seu nome: ");
-
+        Jogador jogador = new Jogador(nomeJogador, viajante);
         IO.println("\nBem-vindo(a), " + nomeJogador + "!");
         IO.println("Você escolheu viajar com " + viajante + ".");
         IO.println("\nVocê está dentro do jogo!");
@@ -47,7 +54,8 @@ public class Main {
 
 
 
-
+        personagem.ColecaoPersonagens colecao =
+                new personagem.ColecaoPersonagens();
 
         SistemaDePity sistema = new SistemaDePity();
 

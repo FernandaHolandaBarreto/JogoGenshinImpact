@@ -1,3 +1,5 @@
+package personagem;
+
 public class Artefatos extends Personagem {
 
     private String nomeDasReliquias;
@@ -14,7 +16,7 @@ public class Artefatos extends Personagem {
 
     @Override
     public String toString() {
-        return "Artefatos{" +
+        return "Personagem.Artefatos{" +
                 "nomeDasReliquias='" + nomeDasReliquias + '\'' +
                 ", quantidadeDePecas='" + quantidadeDePecas + '\'' +
                 ", sobreAsPecas='" + sobreAsPecas + '\'' +
